@@ -51,7 +51,7 @@ dagger.#Plan & {
           dest:     "/opt"
         },
         docker.#Set & {
-          config: cmd: ["/opt/server"]
+          config: cmd: ["/opt/example.com"]
         },
       ]
     }
